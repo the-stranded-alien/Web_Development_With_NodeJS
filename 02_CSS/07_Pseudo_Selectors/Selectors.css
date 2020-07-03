@@ -1,0 +1,13 @@
+ul ul {
+    display: none;
+}
+
+/* Pseudo Selectors */
+li:hover {
+    color: red;
+}
+
+/* Pseudo Selectors & Combinators Work Together */
+li:hover > ul {
+    display: block;
+}
