@@ -1,0 +1,34 @@
+/* Combination Of Selectors */
+li {
+    font-weight: bold;    
+}
+
+/* Direct Child */
+ul > li {
+    color: blue;
+}
+
+ol > li {
+    color: red;
+}
+
+/* Descendent */
+ul ul {
+    font-style: italic;
+}
+
+ul li li {
+    font-style: italic;
+}
+
+/* Next Sibling */
+/* Directly After */
+ol + ul {
+    background-color: green;
+}
+
+/* Any Sibling */
+/* After (Need Not To Be Direct)  */
+ol ~ ul {
+    font-style: italic;
+}
