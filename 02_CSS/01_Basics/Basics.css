@@ -1,0 +1,36 @@
+/* Star Selector -> Selects Every Kind Of Element */
+* {
+    margin-top: 20px;
+    color: red;
+}
+
+body {
+    margin-top: 50px;
+}
+
+/* Element Selectors */
+div {
+    margin-left: 30px;
+}
+
+p {
+    font-size: 30px;
+}
+
+/* Id Selector (#) */
+#p2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p3 {
+    margin-left: 20px;
+}
+
+/* Class Selector (.) */
+.awesomepara {
+    background-color: lightpink;
+}
+
+.bigpara {
+    font-size: 50px;
+}
