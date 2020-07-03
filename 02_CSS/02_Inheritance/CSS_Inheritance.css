@@ -1,0 +1,40 @@
+#id1 {
+    background-color: lightgreen;
+}
+
+* {
+    background-color: lightcyan;
+}
+
+/* Element Selector Take Precedence Over '*' */
+div {
+    background-color: lightseagreen;
+}
+
+/* Class Take Precedence Over '*' & Element Selector */
+.cl1 {
+    background-color: lightcoral;
+}
+
+/* Id Take Precedence Over '*', Element & Class */
+#id1 {
+    background-color: lightsteelblue;
+}
+
+/* If We Give Same Attribute Another Value Through Same Selector
+Later's Value Take Precedence */
+.cl1 {
+    background-color: lightyellow;
+}
+
+/* Change In Order Of Writting Doesn't Matter */
+
+/* Precedence Order */
+/* id > class > element > '*' */
+
+/* '*' -> Applies To All
+'div', 'p' -> Applies To That Type Of Element
+.abc -> Applies To Class abc
+#xyz -> Applies To Id xyz */
+
+/* If We Repeat Same Thing Later One Take Precedence */
