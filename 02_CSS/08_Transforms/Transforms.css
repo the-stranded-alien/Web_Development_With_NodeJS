@@ -1,0 +1,18 @@
+#div1 {
+    height: 70px;
+    width: 70px;
+    margin: 150px;
+    background-color: orange;
+    /* Translate Transform */
+    transform: translate(30px, 30px);
+    transform: translateX(10px, 10px);
+    /* Scale Transform */
+    transform: scale(0.5);
+    transform: scaleX(0.7);
+    /* Skew Transform */
+    transform: skew(20deg, 0);
+    /* Rotate Transform */
+    transform: rotate(45deg);
+    transform: rotateX(45deg);
+    /* Only The Last Transform Will Work */
+}
